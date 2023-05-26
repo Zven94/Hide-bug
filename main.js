@@ -221,7 +221,7 @@ function creatCardTemplate(i) {
 
 // ----------------  Event Listener -----------------------//
 
-burgerBtn.addEventListener('click', displayBugerMenu);
+burgerBtn.addEventListener('click', displayBugerMenu ());
 exitButton.addEventListener('click', exitBurguerMenu);
 seeProjectsBtn.addEventListener('click', displayPopUp);
 exitButtonPopup.addEventListener('click', exitPopUp);
